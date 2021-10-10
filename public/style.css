@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    
+  
+}
+
+.loggo img{
+    width: 2%;
+    height: 4%;
+    padding: 8px 8px;
+    margin: 5px 5px;
+    border: 2px solid black;
+    border-radius: 18px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+   
+    width: 70%;
+    justify-content: left;
+
+
+
+}
+.nav-list li{
+    margin: 5px 5px;
+    padding: 5px 5px;
+    list-style: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+}
+.nav-list li a:hover{
+    color: black;
+}
+.rightnav{
+    width: 30%;
+
+    text-align: right;
+  
+   
+
+}
+.loggo{
+    width: 145%;
+}
+.btn{
+    margin: 15px 15px;
+}
+#search{
+    padding: 2px 3px;
+    margin: 4px 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: black;
+    cursor: pointer;
+}
+.fot{
+    font-size: 50px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url("back.jpg") ;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain
+    background-size: 100vw 100vh;
+   
+    background-size: cover;
+    background-blend-mode: darken;
+    
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+    
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+    background-size: cover;
+}
+.firstsection{
+    height: 100vh;
+}
+.secondhalf img{
+    width: 70%;
+    height: 90%;
+    padding: 2px;
+    margin: 2px 3px;
+    border: 2px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+.textbig{
+    font-size: 150px;
+
+}
+.btn1{
+    padding: 8px 8px;
+    margin:10px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    
+
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 5px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 5px 5px;
+    
+   
+}
+.thumbnail img{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 45px;
+    margin: 0px 2px;
+}
+.paras{
+    padding: 20px 60px;
+}
+.secLeft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 5px 5px;
+    flex-direction: row-reverse;
+    
+
+}
+.contact{
+    
+    margin: auto;
+   
+    height: 533px;
+}
+.donate{
+    width: 220px;
+    padding:0 23px;
+    margin: 2px solid black;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+.contact1{
+    text-align: center;
+    padding: 15px 0px;
+}
+.contact2{
+    max-width: 500px;
+    margin: auto;
+    
+}
+.contact2 input{
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 3px 3px;
+    text-align: center;
+}
+.btn2{
+    padding: 8px 8px;
+    margin:10px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+  
+    
+
+}
+.dark{
+    color:black;
+    display: block;
+    margin: auto;
+}
+.textcentre{
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+}
+#video-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    grid-auto-rows: 300px; */
+    /* display: inline-block; */
+
+    
+    /* margin: auto; */
+
+    /* border: 2px solid black; */
+
+}
+video{
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    /* display: inline-block; */
+ }
